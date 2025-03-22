@@ -12,9 +12,6 @@ The task was gotten from frontend mentor io and was to build a link sharing app 
 - Save details to a database (build the project as a full-stack app)
 - Create an account and log in (add user authentication to the full-stack app)
 
-# Important Note
-This project is developed by closely following the Socket.IO official documentation. It is primarily for testing my skills with Socket.IO and does not include additional functionalities beyond the basics covered in the documentation.
-
 # Technical Setup
 React: JavaScript library for building user interfaces.
 Tailwind CSS: Utility-first CSS framework for styling.
