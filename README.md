@@ -1,5 +1,5 @@
 # Project overview,
-The task was gotten from frontend mentor io and was to build a link sharing app where users can create a profile and upload their links to their profile page
+The task was gotten from frontend developer was to build a link sharing app where users can create a profile and upload their links to their profile page
 
 # Features
 - Create, read, update, delete links and see previews in the mobile mockup
