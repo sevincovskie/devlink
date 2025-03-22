@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Instrument Sans", sans-serif;
+  background-color: #fafafa;
+}
+
+.full-page-loader {
+  display: flex;
+  justify-content: center;
+  z-index: 50;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border-left-color: #633cff;
+  animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.my-svg-alternate {
+  display: none;
+}
+.no-svg .my-svg-alternate {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url(image.png);
+}
